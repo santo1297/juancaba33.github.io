@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(247, 220, 111) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    background-color: white;
+    height: 10em;
+    padding: 2px;
+    font-size: 2em;
+    background-image: url(../img/imagen-fondo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 70%;
+    
+}
+
+.header h1 {
+    margin: 0px;
+    font-weight: 400;
+    
+}
+
+.products {
+    width: 80%;
+    margin: auto;
+}
+
+.products p {
+    text-shadow: 0px 3px rgb(225, 222, 240);
+}
+
+.products td {
+    width: 50%;
+    padding: 2em;
+}
+
+.products img {
+    width: 100%;
+    border: solid 1px black;
+}
+
+.footer { 
+    height: 5em;
+    line-height: 5em;
+    background-color: black;
+    font-family: cursive;
+    color: white;
+    text-shadow: 1px 1px white;
+    text-align: center;
+    font-weight: 500;
+}

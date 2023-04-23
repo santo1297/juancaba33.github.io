@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Section acerca de mi */
+
+#Acerca-de-mi {
+  background-image: url(../img/imagenfondo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+/* Section Educacion*/
+
+.educacion {
+  box-shadow: 2px 2px white;
+}
+
+/* SectionMis Proyectos */
+
+#Portafolio .image-top {
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
+
+/* Section Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;}
+  }
+
+  .navbar-brand {
+    width: 100px;
+  }

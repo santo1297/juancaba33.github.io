@@ -1,0 +1,37 @@
+.navbar-brand {
+    font-weight: bold;
+}
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+.col {
+    box-shadow: 0.1rem 0.1rem 0.1rem rgba(0,0,0,0.3);
+}
+.col-4 p {
+    box-shadow: 0.1rem 0.1rem 0.1rem rgba(0,0,0,0.8);
+}
+.oferta {
+    font-weight: bold;
+    color: red;
+}
+.oferta:hover {
+    transform: scale(1.05, 1.05);
+}
+.legend {
+    text-align: center;
+    color: white;
+}
+.form:hover {
+    transform: scale(1.01, 1.01);
+}
+.btn:hover {
+    transform: scale(1.05, 1.05);
+}
+.pie-pagina h5 {
+    text-align: center;
+}
+.pie-pagina p {
+    text-align: center;
+}
